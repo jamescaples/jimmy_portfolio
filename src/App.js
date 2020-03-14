@@ -16,7 +16,11 @@ function App() {
       </div>
       
       <div className='About'>
-        <About></About>
+        <About>
+    
+        
+        </About>
+    }
       </div>
       <div className='work'>
         <Work></Work>

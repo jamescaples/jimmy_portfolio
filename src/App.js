@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import logo from './img/project_insight.png'; // Tell webpack this JS file uses this image
+
 
 import Header from './components/Header';
 import About from './components/About';
@@ -17,10 +19,9 @@ function App() {
       
       <div className='About'>
         <About>
-    
-        
+        <logo/>
         </About>
-    }
+
       </div>
       <div className='work'>
         <Work></Work>

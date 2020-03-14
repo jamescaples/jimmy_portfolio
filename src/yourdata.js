@@ -1,4 +1,6 @@
 import React from 'react';
+// import App from 'App.js';
+import logo from './img/project_insight.png'; 
 
 
 
@@ -29,7 +31,7 @@ export default
             title:'First Group Project, //Project Title - Add Your Project Title Here',
              service:'Full Stack Development', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"",
+             imageSrc:"/img/project_insight.png",
              //Project URL - Add Your Project Url Here
              url:""
             },
@@ -37,7 +39,7 @@ export default
                 id: 2,//DO NOT CHANGE THIS (Please)😅
                 title: 'Second Project',
                 service: 'Back-End Development',
-                imageSrc: <img src="/img/project_insight.png" alt="project"/>,
+                imageSrc: {logo},
                 url: 'https://bigtunaproj.herokuapp.com'
             },
             { 
